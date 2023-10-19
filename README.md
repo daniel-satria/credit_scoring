@@ -20,22 +20,13 @@ Credit Scoring with IV & WOE
 - Weight of Evidence (WoE) — measures the strength of each attribute.
 
 $$
-W_i &= \ln ( \% \text{Good} / \% \text{Bad} )
-$$
-
-$$
-\begin{align*}  
-W_i &= \ln \left ( \left ( \frac{N_i}{\sum N} \right ) / \left ( \frac{P_i}{\sum P} \right )\right )
+\begin{align*}
+W_i &= \ln ( \% \text{Good} / \% \text{Bad} ) \\
+W_i &= \ln \left ( \left ( \frac{N_i}{\sum N} \right ) / \left ( \frac{P_i}{\sum P} \right )\right ) \\
 \end{align*}
 $$
 
 - Information Value (IV) — measures the total strength of the characteristic.
-$$
-\begin{align*}
-IV &= \sum_{i=1}^{n} ( \% \text{Good} - \% \text{Bad} ) \times W_i \\
-IV &= \sum_{i=1}^{n}\left [ \left ( \frac{N_i}{\sum N} - \frac{P_i}{\sum P} \right ) \times W_i \right ] \\
-\end{align*}
-$$
 
 **6. Check logical trend.**
 - Attribute strengths must also be in a logical order, and make operational sense.
