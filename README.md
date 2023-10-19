@@ -21,13 +21,13 @@ Credit Scoring with IV & WOE
 
 $$
 \begin{align*}
-W_i &= \ln ( \% \text{Good} / \% \text{Bad} ) \\
+W_i &= \ln ( \% \text{Good} / \% \text{Bad} )
 \end{align*}
 $$
 
 $$
-\begin{align*}
-W_i &= \ln \left ( \left ( \frac{N_i}{\sum N} \right ) / \left ( \frac{P_i}{\sum P} \right )\right ) \\
+\begin{align*}  
+W_i &= \ln \left ( \left ( \frac{N_i}{\sum N} \right ) / \left ( \frac{P_i}{\sum P} \right )\right )
 \end{align*}
 $$
 
