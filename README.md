@@ -20,9 +20,7 @@ Credit Scoring with IV & WOE
 - Weight of Evidence (WoE) — measures the strength of each attribute.
 
 $$
-\begin{align*}
 W_i &= \ln ( \% \text{Good} / \% \text{Bad} )
-\end{align*}
 $$
 
 $$
