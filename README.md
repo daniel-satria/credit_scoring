@@ -18,20 +18,6 @@ Credit Scoring with IV & WOE
 
 **5. Statistical Measures.**
 - Weight of Evidence (WoE) — measures the strength of each attribute.
-
-$$
-\begin{align*}
-W_i &= \ln ( \% \text{Good} / \% \text{Bad} ) \\
-\end{align*}
-$$
-
-Test
-$$
-\begin{align*}
-W_i &= \ln \left ( \left ( \frac{N_i}{\sum N} \right ) / \left ( \frac{P_i}{\sum P} \right )\right ) \\
-\end{align*}
-$$
-
 - Information Value (IV) — measures the total strength of the characteristic.
 
 **6. Check logical trend.**
